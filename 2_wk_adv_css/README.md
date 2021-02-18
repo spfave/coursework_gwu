@@ -8,3 +8,7 @@ Topics
 - Responsive web design
 - Flexbox placement
 - Box styling
+
+## **Day 5 - Feb 18th**
+Topics
+- CSS styling reset
