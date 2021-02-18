@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head>
+    <title>CSS Specificity</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<style>
+    .purple {
+        background-color: purple;
+    }
+    .red{
+        background-color: pink;
+    }
+    /* #blue{
+        background-color: pink;
+    } */
+</style>
+
+<body>
+    <div class="container">
+        <div class="container blue"></div>
+        <div class="container red" id="blue"></div>
+        <div class="container green blue"></div>
+        <div class="container yellow purple"></div>
+    </div>
+</body>
+
+</html>
