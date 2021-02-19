@@ -12,3 +12,5 @@ Topics
 ## **Day 5 - Feb 18th**
 Topics
 - CSS styling reset
+- Typography
+- Pseudo classes
