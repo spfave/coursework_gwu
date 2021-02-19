@@ -14,3 +14,5 @@ Topics
 - CSS styling reset
 - Typography
 - Pseudo classes
+- Pseudo elements
+- Forms
