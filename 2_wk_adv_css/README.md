@@ -21,3 +21,5 @@ Topics
 Topics
 - Wire framing
 - Advanced CSS selectors
+- CSS variables 
+- Git branches
