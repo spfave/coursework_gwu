@@ -16,3 +16,8 @@ Topics
 - Pseudo classes
 - Pseudo elements
 - Forms
+
+## **Day 6 - Feb 20th**
+Topics
+- Wire framing
+- Advanced CSS selectors
