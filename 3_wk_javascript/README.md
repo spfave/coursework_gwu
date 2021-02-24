@@ -8,3 +8,4 @@ Topics
 - Primitive variable types: String, Number, Boolean
 - Logical operation operators: ==, ===, !=, !==, >, <, >=, <=
 - Logical comparison operators: && (and), || (or), ! (not)
+- Conditionals: if, else-if, else
