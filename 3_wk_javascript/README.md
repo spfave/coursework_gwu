@@ -5,3 +5,4 @@
 Topics
 - Internal and Externally linked JavaScript in HTML files
 - Variable definitions
+- Primitive variable types: String, Number, Boolean
