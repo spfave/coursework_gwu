@@ -4,4 +4,4 @@
 ## **Day 7 - Feb 23**
 Topics
 - Internal and Externally linked JavaScript in HTML files
-- 
+- Variable definitions
