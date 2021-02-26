@@ -9,3 +9,7 @@ Topics
 - Logical operation operators: ==, ===, !=, !==, >, <, >=, <=
 - Logical comparison operators: && (and), || (or), ! (not)
 - Conditionals: if, else-if, else
+
+## **Day 8 - Feb 25**
+Topics
+- Arrays
