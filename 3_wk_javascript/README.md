@@ -16,3 +16,4 @@ Topics
 - Iteration: while-loops, for-loops
 - Functions
 - Variable scope: hoisting (`var` variable definitions and `function` definitions are hoisted)
+- Methods
