@@ -14,3 +14,4 @@ Topics
 Topics
 - Arrays
 - Iteration: while-loops, for-loops
+- Functions
