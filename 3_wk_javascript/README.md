@@ -13,3 +13,4 @@ Topics
 ## **Day 8 - Feb 25**
 Topics
 - Arrays
+- Iteration: while-loops, for-loops
