@@ -20,4 +20,5 @@ Topics
 
 ## **Day 9 - Feb 27**
 Topics
-- Objects 
+- Objects
+- Object methods

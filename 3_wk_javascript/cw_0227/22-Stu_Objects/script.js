@@ -1,5 +1,5 @@
 //WRITE YOUR CODE BELOW
-customerOrder = {
+let customerOrder = {
   drinkName: "Latte",
   numberSugar: 2,
   orderReady: false,
