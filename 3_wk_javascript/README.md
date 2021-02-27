@@ -17,3 +17,7 @@ Topics
 - Functions
 - Variable scope: hoisting (`var` variable definitions and `function` definitions are hoisted)
 - Methods
+
+## **Day 9 - Feb 27**
+Topics
+- Objects 
