@@ -22,3 +22,4 @@ Topics
 Topics
 - Objects
 - Object methods
+- `this` context in JavaScript
