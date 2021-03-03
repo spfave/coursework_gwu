@@ -4,4 +4,5 @@
 ## **Day 10 - Mar 2**
 Topics
 - Browser window object
-- Traversing the DOM
+- Traversing the DOM: document.querySelector(), document.querySelectorAll(), document.getElementById()
+- Setting html tag attributes: element.setAttribute()
