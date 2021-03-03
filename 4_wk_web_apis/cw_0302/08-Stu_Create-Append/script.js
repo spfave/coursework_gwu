@@ -39,16 +39,19 @@ favoriteEl.setAttribute("style", "font-size:20px;");
 // const foodList = document.createElement("ol");
 // const foodItem = document.createElement("li");
 
+// Add text content to li items
 li1.textContent = "Ramen 🍜";
 li2.textContent = "Pizza 🍕";
 li3.textContent = "Donuts 🍩";
 li4.textContent = "Pretzels 🥨";
 
+// Append li items to favorite foods list
 listEl.appendChild(li1);
 listEl.appendChild(li2);
 listEl.appendChild(li3);
 listEl.appendChild(li4);
 
+// Style favorite foods list
 listEl.setAttribute("style", "background-color: #333; padding: 20px;");
 
 // Create list of li items and background colors
