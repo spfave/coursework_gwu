@@ -6,3 +6,4 @@ Topics
 - Browser window object
 - Traversing the DOM: document.querySelector(), document.querySelectorAll(), document.getElementById()
 - Setting html tag attributes: element.setAttribute()
+- Creating and appending html tags to DOM
