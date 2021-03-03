@@ -6,3 +6,4 @@ Topics
 - Week 1: Terminal/Console use, Git, HTML & CSS Introduction
 - Week 2: Advanced CSS
 - Week 3: JavaScript
+- Week 4: Web APIs
