@@ -43,7 +43,7 @@ while (playGame) {
     \nGame stats: wins: ${stats.wins} losses: ${stats.loses} ties: ${stats.ties}
     `);
 
-  const playAgain = confirm("Do you wan to play again?");
+  const playAgain = confirm("Do you want to play again?");
   if (!playAgain) {
     playGame = false;
   }
