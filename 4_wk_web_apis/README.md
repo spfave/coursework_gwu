@@ -12,3 +12,4 @@ Topics
 ## **Day 11 - Mar 4**
 Topics
 - Event listeners: mouse click, key press
+- Preventing default event behavior: e.g. prevent submit button click from reloading page (commonly used with forms)
