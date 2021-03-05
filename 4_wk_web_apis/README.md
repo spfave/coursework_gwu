@@ -8,3 +8,7 @@ Topics
 - Setting html tag attributes: element.setAttribute()
 - Creating and appending html tags to DOM
 - `setInterval` function: 
+
+## **Day 11 - Mar 4**
+Topics
+- Event listeners: mouse click, key press
