@@ -15,3 +15,7 @@ Topics
 - Preventing default event behavior: e.g. prevent submit button click from reloading page (commonly used with forms)
 - Event Types: click, keypress, change, etc.
 - Event bubbling
+
+## **Day 12 - Mar 6**
+Topics
+- Local storage
