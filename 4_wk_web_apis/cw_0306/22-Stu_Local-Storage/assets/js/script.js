@@ -17,8 +17,11 @@ function renderLastRegistered() {
   const emailText = localStorage.getItem("email");
   const passwordText = localStorage.getItem("password");
 
-  userEmailSpan.textContent = emailText;
-  userPasswordSpan.textContent = passwordText;
+  if (emailText && passwordText) {
+    // Checks that strings are none empty
+    userEmailSpan.textContent = emailText;
+    userPasswordSpan.textContent = passwordText;
+  }
 }
 
 signUpButton.addEventListener("click", function (event) {
