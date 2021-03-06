@@ -19,3 +19,5 @@ Topics
 ## **Day 12 - Mar 6**
 Topics
 - Local storage
+- Local storage of objects: JSON.stringify to convert to string, JSON.parse to convert back from string
+- 
