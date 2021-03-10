@@ -7,3 +7,4 @@ Topics
 - JQuery: Event listeners
 - JQuery: Handling form elements
 - JQuery: DOM traversal
+- JQuery: Event Delegation
