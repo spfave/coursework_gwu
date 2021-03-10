@@ -4,3 +4,4 @@
 ## **Day 13 - Mar 9**
 Topics
 - JQuery: Element selection, setting text, setting attributes, adding classes, styling css, appending DOM elements
+- JQuery: Event listeners
