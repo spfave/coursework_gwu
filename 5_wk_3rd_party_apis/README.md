@@ -12,3 +12,4 @@ Topics
 ## **Day 14 - Mar 11**
 Topics
 - Bootstrap Components: navbar, jumbotron, alerts, forms, list, cards, etc.
+- Bootstrap Layout: container, row, grid (column spacing)
