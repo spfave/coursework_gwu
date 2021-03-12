@@ -8,3 +8,7 @@ Topics
 - JQuery: Handling form elements
 - JQuery: DOM traversal
 - JQuery: Event Delegation
+
+## **Day 14 - Mar 11**
+Topics
+- Bootstrap Components: navbar, jumbotron, alerts, forms, list, cards, etc.
