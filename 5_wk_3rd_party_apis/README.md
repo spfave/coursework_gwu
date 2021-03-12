@@ -15,3 +15,4 @@ Topics
 - Bootstrap Layout: container, row, grid (column spacing)
 - Bootstrap Utilities: 
 - Extending Bootstrap: Custom CSS to extend bootstrap 
+- Custom Fonts: Google fonts
