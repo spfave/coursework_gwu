@@ -10,37 +10,55 @@
     Output: "o"
  */
 
-function firstCharOnce(str) {
-  strNoSpc = str.split(" ").join("");
-  charCount = {};
-
-  for (const char of strNoSpc) {
-    if (!(char in charCount)) {
-      charCount[char].count = 1;
-      charCount[char].count = 1;
-    } else {
-      charCount[char].count++;
-    }
-  }
-
-  return charCount;
-}
-
-// Double for loop solution
+// Solution implementing indexOf to eliminate second for-loop
 function firstCharOnce(str) {
   for (let i = 0; i < str.length; i++) {
-    let currentChar = str[i];
-    let count = 0;
-    for (let j = 0; j < str.length; j++) {
-      if (currentChar === str[j]) {
-        count++;
-      }
-    }
-    if (count === 1) {
-      return currentChar;
+    let char = str[i];
+    if (str.indexOf(char) == i && str.indexOf(char, i + 1) == -1) {
+      return char;
     }
   }
+  return "_";
 }
+
+// Double for-loop solution without repeated checks
+// function firstCharOnce(str) {
+//   const strNoSpc = str.split(" ").join("");
+//   const charChecked = [];
+
+//   for (let i = 0; i < strNoSpc.length; i++) {
+//     const currentChar = strNoSpc[i];
+//     if (!charChecked.includes(currentChar)) {
+//       let count = 1;
+//       for (let j = i + 1; j < strNoSpc.length; j++) {
+//         if (currentChar === strNoSpc[j]) {
+//           count++;
+//         }
+//       }
+//       if (count === 1) {
+//         return currentChar;
+//       } else {
+//         charChecked.push(currentChar);
+//       }
+//     }
+//   }
+// }
+
+// Double for-loop solution with repeated checks
+// function firstCharOnce(str) {
+//   for (let i = 0; i < str.length; i++) {
+//     let currentChar = str[i];
+//     let count = 0;
+//     for (let j = 0; j < str.length; j++) {
+//       if (currentChar === str[j]) {
+//         count++;
+//       }
+//     }
+//     if (count === 1) {
+//       return currentChar;
+//     }
+//   }
+// }
 
 // Testing
 let str = "the quick brown fox jumps over the calm kitten quietly";
