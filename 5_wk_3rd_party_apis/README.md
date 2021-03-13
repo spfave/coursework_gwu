@@ -16,3 +16,7 @@ Topics
 - Bootstrap Utilities: 
 - Extending Bootstrap: Custom CSS to extend bootstrap 
 - Custom Fonts: Google fonts
+
+## **Day 15 - Mar 13**
+Topics
+- JQuery UI Widgets: 
