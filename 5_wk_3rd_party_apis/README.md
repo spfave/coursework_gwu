@@ -19,4 +19,5 @@ Topics
 
 ## **Day 15 - Mar 13**
 Topics
-- JQuery UI Widgets: 
+- JQuery UI Widgets: date picker, autocomplete
+- JQuery UI Interactions: sortable lists
