@@ -7,4 +7,4 @@ Topics
 - Browser fetch API
 - Different HTTP Get APIs: fetch(), JQuery.ajax(), XMLHttpRequest()
 - JSON parsing fetch response
-- 
+- Rendering HTML from API response
