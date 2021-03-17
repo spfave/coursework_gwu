@@ -6,3 +6,5 @@ Topics
 - cURL: command-line tool (curl) for transferring data using various network protocols
 - Browser fetch API
 - Different HTTP Get APIs: fetch(), JQuery.ajax(), XMLHttpRequest()
+- JSON parsing fetch response
+- 
