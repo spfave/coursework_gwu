@@ -8,3 +8,7 @@ Topics
 - Different HTTP Get APIs: fetch(), JQuery.ajax(), XMLHttpRequest()
 - JSON parsing fetch response
 - Rendering HTML from API response
+
+## **Day 17 - Mar 18**
+Topics
+- Network Activity Tab in chrome web developer tools
