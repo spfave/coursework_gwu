@@ -12,3 +12,5 @@ Topics
 ## **Day 17 - Mar 18**
 Topics
 - Network Activity Tab in chrome web developer tools
+- Fetch Status Codes: 200-299 (successful), 400-499 (client errors), etc.
+- 
