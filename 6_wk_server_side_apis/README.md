@@ -20,3 +20,4 @@ Topics
 ## **Day 18 - Mar 20**
 Topics
 - HTML and JS review with fetch API
+- Git collaboration demo
