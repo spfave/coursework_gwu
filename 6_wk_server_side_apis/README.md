@@ -16,3 +16,7 @@ Topics
 - API request parameters
 - Fetch request options: method, credentials, redirect
 - Document.location
+
+## **Day 18 - Mar 20**
+Topics
+- HTML and JS review with fetch API
