@@ -9,3 +9,4 @@ Topics
 - [Week 4](./4_wk_web_apis): Web APIs
 - [Week 5](./5_wk_3rd_party_apis): Third Party APIs
 - [Week 6](./6_wk_server_side_apis): Server Side APIs
+- Week 7: Project 1 - Agile Development
