@@ -1,6 +1,16 @@
+const url = new URL("https://api.github.com/repos/nodejs/node/issues");
+const params = {
+  per_page: 10,
+  state: "open",
+  sort: "created",
+  direction: "desc",
+};
+url.search = new URLSearchParams(params).toString();
+
 fetch(
   // Explain each parameter in comments below.
-  "https://api.github.com/repos/nodejs/node/issues?per_page=10&state=open&sort=created&direction=desc"
+  // "https://api.github.com/repos/nodejs/node/issues?per_page=10&state=open&sort=created&direction=desc"
+  url
 )
   .then(function (response) {
     return response.json();
