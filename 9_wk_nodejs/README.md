@@ -8,3 +8,7 @@ Topics
 - Variable definition: const, let, var
 - Function loops: foreach, map, filter, reduce
 - String literals
+
+## **Day 26 - Apr 8**
+Topics
+- Node terminal argument input arguments
