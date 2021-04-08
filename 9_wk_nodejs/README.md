@@ -12,3 +12,4 @@ Topics
 ## **Day 26 - Apr 8**
 Topics
 - Node terminal argument input arguments
+- Node standard library modules: file system (fs)
