@@ -1,0 +1,10 @@
+{
+	"name": "Seb F",
+	"languages": [
+		"HTML",
+		"CSS",
+		"JS",
+		"Python"
+	],
+	"communication": "Telepathy"
+}

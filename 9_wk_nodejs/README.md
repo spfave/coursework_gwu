@@ -13,5 +13,6 @@ Topics
 Topics
 - Node terminal argument input arguments
 - Node standard library modules: file system (fs)
-- Modularization: exporting
+- Node Modules: exporting
 - Node Package Manager (NPM)
+- NPM Inquirer package
