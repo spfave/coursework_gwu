@@ -20,3 +20,4 @@ Topics
 ## **Day 27 - Apr 10**
 Topics
 - For-of loop
+- Spread and rest operator
