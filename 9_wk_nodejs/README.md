@@ -21,3 +21,4 @@ Topics
 Topics
 - For-of loop
 - Spread and rest operator
+- Object destructuring
