@@ -16,3 +16,7 @@ Topics
 - Node Modules: exporting
 - Node Package Manager (NPM)
 - NPM Inquirer package
+
+## **Day 27 - Apr 10**
+Topics
+- For-of loop
