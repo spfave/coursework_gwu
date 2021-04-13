@@ -2,7 +2,8 @@
  * What will the following code output and why:
  * Output will be NaN
  *
- * Reason: declaring variables using var has them hoisted to the top of their scope
+ * Reason: declaring variables using var has them hoisted to the top of their scope, but only
+ * hoists up the variable name declaration and not the variable value assignment
  */
 
 var a = 1;
