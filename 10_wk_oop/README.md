@@ -4,3 +4,4 @@
 ## **Day 28 - Apr 13**
 Topics
 - Constructor functions, class definitions
+- Prototypes
