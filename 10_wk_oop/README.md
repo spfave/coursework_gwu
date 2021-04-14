@@ -5,3 +5,4 @@
 Topics
 - Constructor functions, class definitions
 - Prototypes
+- Polymorphism
