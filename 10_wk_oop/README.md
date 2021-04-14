@@ -7,3 +7,4 @@ Topics
 - Prototypes
 - Polymorphism
 - Creating Promises and returning a Resolution or Rejection 
+- Promise.All
