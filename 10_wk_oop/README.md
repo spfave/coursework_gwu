@@ -6,3 +6,4 @@ Topics
 - Constructor functions, class definitions
 - Prototypes
 - Polymorphism
+- Creating Promises and returning a Resolution or Rejection 
