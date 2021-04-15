@@ -8,3 +8,10 @@ Topics
 - Polymorphism
 - Creating Promises and returning a Resolution or Rejection 
 - Promise.All
+
+## **Day 29 - Apr 15**
+Topics
+- Test Driven Development (TDD): Unit testing with jest.js
+  - describe(): used to provide string description for test or groups of tests
+  - it(): string describing test, callback function that runs test
+  - expect(): result from it callback function to validate in test
