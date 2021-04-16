@@ -16,3 +16,5 @@ Topics
   - it(): string describing test, callback function that runs test
   - expect(): result from it callback function to validate in test
 - Organizing tests: arrange, act, assert
+- Mock functionality: mock method
+- Mock functionality for APIs: mock entire module
