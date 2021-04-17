@@ -18,3 +18,7 @@ Topics
 - Organizing tests: arrange, act, assert
 - Mock functionality: mock method
 - Mock functionality for APIs: mock entire module
+
+## **Day 30 - Apr 17**
+Topics
+- ES6 Class Definitions
