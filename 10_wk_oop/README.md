@@ -23,3 +23,4 @@ Topics
 Topics
 - ES6 Class Definitions
 - Subclasses
+- Multiple Classes
