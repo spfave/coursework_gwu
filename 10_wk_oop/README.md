@@ -22,3 +22,4 @@ Topics
 ## **Day 30 - Apr 17**
 Topics
 - ES6 Class Definitions
+- Subclasses
