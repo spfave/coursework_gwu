@@ -3,4 +3,6 @@
 
 ## **Day 31 - Apr 20**
 Topics
-- 
+- Node Server
+- Server routing
+- Testing server methods (get, post, put, delete, etc) with Insomnia/Postman
