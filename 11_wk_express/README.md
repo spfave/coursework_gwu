@@ -6,3 +6,8 @@ Topics
 - Node Server
 - Server routing
 - Testing server methods (get, post, put, delete, etc) with Insomnia/Postman
+
+## **Day 32 - Apr 22**
+Topics
+- Express.js Package
+  - Routes/Routing
