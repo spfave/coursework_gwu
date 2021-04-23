@@ -12,3 +12,5 @@ Topics
 - Express.js Package
   - Routes/Routing
   - Routes with parameter inputs
+  - Get and Post routes
+  - Client/Server relations with API request
