@@ -9,8 +9,11 @@ Topics
 
 ## **Day 32 - Apr 22**
 Topics
-- Express.js Package
+- Express.js web application framework
   - Routes/Routing
   - Routes with parameter inputs
   - Get and Post routes
   - Client/Server relations with API request
+
+## **Day 33 - Apr 24**
+[Full stack express.js mini-project]()
