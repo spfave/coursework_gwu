@@ -16,4 +16,4 @@ Topics
   - Client/Server relations with API request
 
 ## **Day 33 - Apr 24**
-[Full stack express.js mini-project]()
+[Full stack express.js mini-project](https://github.com/spfave/restaurant-reservation-fullstack)
