@@ -7,3 +7,4 @@ Topics
 - Create database, create table, add columns
 - Insert data in database tables
 - Data retrieval, filtering, and updating
+- Normalized Databases and Joins
