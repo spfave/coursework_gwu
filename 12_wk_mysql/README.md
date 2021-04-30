@@ -8,3 +8,8 @@ Topics
 - Insert data in database tables
 - Data retrieval, filtering, and updating
 - Normalized Databases and Joins
+
+## **Day 35 - Apr 29**
+Topics
+- Connection to MySQL db from JavaScript
+- Submitting db queries from JavaScript
