@@ -7,15 +7,29 @@ const bidPost = [
   },
 ];
 
-const itemSelection = [
-  {
-    type: "input",
-    message: "Enter the item name you want to bid on: ",
-    name: "itemName",
-  },
-];
+// const itemSelection = [
+//   {
+//     type: "input",
+//     message: "Enter the item name you want to bid on: ",
+//     name: "itemName",
+//   },
+// ];
 
-const bidAmount = [
+function itemSelection(items) {
+  let choices = [];
+  items.forEach(({ item_name }) => choices.push(item_name));
+
+  return [
+    {
+      type: "list",
+      message: "Select the item name you want to bid on: ",
+      choices: choices,
+      name: "itemName",
+    },
+  ];
+}
+
+const bidOffer = [
   {
     type: "input",
     message: "Enter your name: ",
@@ -36,6 +50,6 @@ const itemInfo = [
 module.exports = {
   bidPost,
   itemSelection,
-  bidAmount,
+  bidOffer,
   itemInfo,
 };

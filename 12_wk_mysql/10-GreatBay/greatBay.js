@@ -64,19 +64,19 @@ async function bidOption() {
   // console.log("Test Bid");
 
   // Show all items in db
-  // connection.query("SELECT * FROM auctions", async (err, results) => {
-  //   if (err) throw new Error(err);
+  connection.query("SELECT * FROM auctions", async (err, results) => {
+    if (err) throw new Error(err);
 
-  //   const bidItem = await inquirer.prompt(prompts.itemSelection(results));
-  //   console.log(bidItem.itemName);
-  // });
+    const bidItem = await inquirer.prompt(prompts.itemSelection(results));
+
+    greatBay();
+  });
 
   // inquirer.prompt(prompts.itemSelection).then((res) => {
   //   inquirer.prompt(prompts.bidAmount).then((res) => {
   //     // preform bid amount comparison
   //   });
   // });
-  greatBay();
 }
 
 async function postOption() {
