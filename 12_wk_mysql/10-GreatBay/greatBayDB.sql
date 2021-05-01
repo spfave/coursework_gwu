@@ -5,6 +5,7 @@ USE greatBay_DB;
 CREATE TABLE auctions(
     id INT NOT NULL AUTO_INCREMENT,
     item_name VARCHAR(100) NOT NULL,
+    bidder_id VARCHAR(100) DEFAULT "",
     bid INT DEFAULT 0,
     PRIMARY KEY (id)
 );
