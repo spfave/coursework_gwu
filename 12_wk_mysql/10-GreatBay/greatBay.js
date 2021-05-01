@@ -39,47 +39,52 @@ const connection = mysql.createConnection({
 });
 
 // Functions
-let app = true;
-async function greatBay() {
-  while (app) await chooseBidPost();
-}
+const greatBay = () => chooseBidPost();
 
 async function chooseBidPost() {
   res = await inquirer.prompt(prompts.bidPost);
 
   switch (res.inputBidPost) {
     case "Bid":
-      console.log("Test Bid");
-      // bidOption();
+      bidOption();
       break;
 
     case "Post":
-      console.log("Test Post");
-      // postOption();
+      postOption();
       break;
 
     default:
       //Exit
       console.log("Exit");
-      app = false;
       connection.end();
-      break;
   }
 }
 
-function bidOption() {
+async function bidOption() {
+  // console.log("Test Bid");
+
   // Show all items in db
-  inquirer.prompt(prompts.itemSelection).then((res) => {
-    inquirer.prompt(prompts.bidAmount).then((res) => {
-      // preform bid amount comparison
-    });
-  });
+  // connection.query("SELECT * FROM auctions", async (err, results) => {
+  //   if (err) throw new Error(err);
+
+  //   const bidItem = await inquirer.prompt(prompts.itemSelection(results));
+  //   console.log(bidItem.itemName);
+  // });
+
+  // inquirer.prompt(prompts.itemSelection).then((res) => {
+  //   inquirer.prompt(prompts.bidAmount).then((res) => {
+  //     // preform bid amount comparison
+  //   });
+  // });
+  greatBay();
 }
 
-function postOption() {
-  inquirer.prompt(prompts.itemInfo).then((res) => {
-    // add item to db
-  });
+async function postOption() {
+  console.log("Test Post");
+  // inquirer.prompt(prompts.itemInfo).then((res) => {
+  //   // add item to db
+  // });
+  greatBay();
 }
 
 // Script Operation
