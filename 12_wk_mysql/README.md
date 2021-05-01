@@ -14,3 +14,7 @@ Topics
 - Connection to MySQL db from JavaScript
 - Submitting db queries from JavaScript
 - Database CRUD (create, read, update, delete) functions
+
+## **Day 36 - May 1**
+Topics
+- 
