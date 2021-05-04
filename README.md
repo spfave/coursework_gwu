@@ -14,3 +14,4 @@ Topics
 - [Week 10](./10_wk_oop): Object Orientated Programming
 - [Week 11](./11_wk_express): Node Servers and Express Web Application Framework
 - [Week 12](.12_wk_mysql): Relational Databases with MySQL
+- [Week 13](.13_wk_obj_relation_mapping): Object Relational Mapping
