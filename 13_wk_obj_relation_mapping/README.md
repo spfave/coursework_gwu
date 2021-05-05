@@ -6,4 +6,5 @@ Topics
 - Object Relational Mapping (ORM)
 - npm Sequelize package
 - Sequelize models
-- Sequelize 
+- Sequelize model methods: findAll(), findOne(), update(), destroy()
+- Asynchronous JS with async/await
