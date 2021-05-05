@@ -68,6 +68,9 @@ async function bidOption() {
     if (err) throw new Error(err);
 
     const bidItem = await inquirer.prompt(prompts.itemSelection(results));
+    const bidInfo = await inquirer.prompt(prompts.bidOffer);
+
+    // Check item current bid to new bid and update if new bid higher
 
     greatBay();
   });
