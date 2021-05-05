@@ -6,3 +6,4 @@ Topics
 - Object Relational Mapping (ORM)
 - npm Sequelize package
 - Sequelize models
+- Sequelize 
