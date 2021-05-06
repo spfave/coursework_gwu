@@ -12,3 +12,4 @@ Topics
 ## **Day 38 - May 6**
 Topics
 - Restful API routes
+- Data validation with sequelize
