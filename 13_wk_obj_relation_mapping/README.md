@@ -14,3 +14,4 @@ Topics
 - Restful API routes
 - Data validation with sequelize
 - Password hashing with `bcrypt`
+- Hooks on sequelize model
