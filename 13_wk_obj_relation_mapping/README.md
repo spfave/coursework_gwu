@@ -15,3 +15,4 @@ Topics
 - Data validation with sequelize
 - Password hashing with `bcrypt`
 - Hooks on sequelize model
+- Model object instance methods
