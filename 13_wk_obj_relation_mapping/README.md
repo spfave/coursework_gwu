@@ -13,3 +13,4 @@ Topics
 Topics
 - Restful API routes
 - Data validation with sequelize
+- Password hashing with `bcrypt`
