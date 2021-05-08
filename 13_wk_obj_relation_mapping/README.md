@@ -21,3 +21,4 @@ Topics
 Topics
 - Sequelize relationships: one to one
 - Sequelize relationships: one to many
+- Sequelize literal - virtual columns
