@@ -12,7 +12,7 @@ router.get("/", async (req, res) => {
         include: [
           [
             sequelize.literal(
-              "(SELECT count(*) FROM book WHERE reader_id = book.reader_id AND (pages BETWEEN 100 AND 300))"
+              "(SELECT count(*) FROM book WHERE reader_id = reader.id AND (pages BETWEEN 100 AND 300))"
             ),
             "shortBooks",
           ],
