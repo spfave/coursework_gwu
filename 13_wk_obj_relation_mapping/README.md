@@ -20,3 +20,4 @@ Topics
 ## **Day 39 - May 8**
 Topics
 - Sequelize relationships: one to one
+- Sequelize relationships: one to many
