@@ -16,3 +16,7 @@ Topics
 - Password hashing with `bcrypt`
 - Hooks on sequelize model
 - Model object instance methods
+
+## **Day 39 - May 8**
+Topics
+- Sequelize relationships: one to one
