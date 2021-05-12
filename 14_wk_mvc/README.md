@@ -4,3 +4,5 @@
 ## **Day 40 - May 11**
 Topics
 - HTML Templates with Handlebars.js
+- Handlebar expression for data injection
+- Handlebar helpers
