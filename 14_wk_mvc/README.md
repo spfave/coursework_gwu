@@ -5,4 +5,6 @@
 Topics
 - HTML Templates with Handlebars.js
 - Handlebar expression for data injection
-- Handlebar helpers
+- Handlebar helpers: if, each, etc.
+- Data serialization
+- Fullstack MVC app
