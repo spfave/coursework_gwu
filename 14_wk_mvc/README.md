@@ -12,3 +12,4 @@ Topics
 ## **Day 41 - May 13**
 Topics
 - Handlebar partials
+- Handlebars custom helpers
