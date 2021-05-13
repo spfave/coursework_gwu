@@ -8,3 +8,7 @@ Topics
 - Handlebar helpers: if, each, etc.
 - Data serialization
 - Fullstack MVC app
+
+## **Day 41 - May 13**
+Topics
+- Handlebar partials
