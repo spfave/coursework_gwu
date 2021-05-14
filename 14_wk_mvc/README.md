@@ -14,3 +14,4 @@ Topics
 - Handlebar partials
 - Handlebars custom helpers
 - Sessions: express-session
+- Cookies/persistent sessions
