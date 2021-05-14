@@ -15,3 +15,4 @@ Topics
 - Handlebars custom helpers
 - Sessions: express-session
 - Cookies/persistent sessions
+- Server middleware
