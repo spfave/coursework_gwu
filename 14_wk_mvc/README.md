@@ -3,7 +3,7 @@
 
 ## **Day 40 - May 11**
 Topics
-- HTML Templates with Handlebars.js
+- HTML templates with handlebars.js
 - Handlebar expression for data injection
 - Handlebar helpers: if, each, etc.
 - Data serialization
@@ -19,4 +19,5 @@ Topics
 
 ## **Day 42 - May 15**
 Topics
-- MVC Review
+- MVC review
+- Authorization review
