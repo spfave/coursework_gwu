@@ -22,3 +22,4 @@ Topics
 - MVC review
 - Authorization review
 - ESLint review
+- Prettier 
