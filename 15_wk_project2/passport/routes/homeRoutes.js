@@ -13,8 +13,10 @@ router.get('/', (req, res) => {
 
 // Sign up page
 router.get('/signup', signupController.getSignupPage);
+router.post('/signup', signupController.createNewUser);
 
 // Login page
 router.get('/login', loginController.getLoginPage);
+router.post('/login', loginController.loginUser);
 
 module.exports = router;
