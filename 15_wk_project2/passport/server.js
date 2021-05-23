@@ -1,17 +1,31 @@
 require('dotenv').config();
+
+// Server modules/packages
 const express = require('express');
+const session = require('express-session');
+const passport = require('./config/passport');
 
+// MVC modules/packages
 const sequelize = require('./config/connection');
-
 const exphbs = require('express-handlebars');
 const routes = require('./routes');
 
+// Server setup
 const PORT = process.env.PORT || 5000;
 const app = express();
 
-const hbs = exphbs.create();
+const sess = {
+  secret: process.env.SESS_SECRET,
+  cookie: { maxAge: 60 * 60 * 1000 },
+  resave: false,
+  saveUninitialized: true,
+};
+app.use(session(sess));
+app.use(passport.initialize());
+app.use(passport.session());
 
-// Configure server app
+// MVC setup
+const hbs = exphbs.create();
 app.engine('handlebars', hbs.engine);
 app.set('view engine', 'handlebars');
 
