@@ -1,22 +1,33 @@
 const router = require('express').Router();
-const { signupController, loginController } = require('../controllers');
+const passport = require('../config/passport');
+const {
+  signupController,
+  loginController,
+  homepageController,
+  dashboardController,
+} = require('../controllers');
 
 // Homepage
-router.get('/', (req, res) => {
-  res.render('index');
-});
+router.get('/', homepageController.getHomepage);
 
 // Dashboard
-// router.get('/dashboard', (req, res) => {
-//   res.render('dashboard');
-// });
+router.get('/dashboard', dashboardController.getDashboardPage);
 
-// Sign up page
+// Sign up
 router.get('/signup', signupController.getSignupPage);
 router.post('/signup', signupController.createNewUser);
 
-// Login page
+// Login
 router.get('/login', loginController.getLoginPage);
-router.post('/login', loginController.loginUser);
+router.post(
+  '/login',
+  passport.authenticate('local', {
+    successRedirect: '/dashboard',
+    failureRedirect: '/login',
+  })
+);
+
+// Logout
+router.get('/logout', loginController.logout);
 
 module.exports = router;
