@@ -7,6 +7,7 @@ const passport = require('./config/passport');
 
 // MVC modules/packages
 const sequelize = require('./config/connection');
+const SequelizeStore = require('connect-session-sequelize')(session.Store);
 const exphbs = require('express-handlebars');
 const routes = require('./routes');
 
@@ -19,6 +20,7 @@ const sess = {
   cookie: { maxAge: 60 * 60 * 1000 },
   resave: false,
   saveUninitialized: true,
+  store: new SequelizeStore({ db: sequelize }),
 };
 app.use(session(sess));
 app.use(passport.initialize());
@@ -37,3 +39,8 @@ app.use(routes);
 sequelize.sync({ force: false }).then(() => {
   app.listen(PORT, () => console.log(`Server listening on port: ${PORT}`));
 });
+
+/* NOTES
+ExpressJS and PassportJS Sessions Deep Dive
+https://www.airpair.com/express/posts/expressjs-and-passportjs-sessions-deep-dive
+*/
