@@ -39,8 +39,3 @@ app.use(routes);
 sequelize.sync({ force: false }).then(() => {
   app.listen(PORT, () => console.log(`Server listening on port: ${PORT}`));
 });
-
-/* NOTES
-ExpressJS and PassportJS Sessions Deep Dive
-https://www.airpair.com/express/posts/expressjs-and-passportjs-sessions-deep-dive
-*/
