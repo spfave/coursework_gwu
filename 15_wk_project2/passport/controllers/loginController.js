@@ -2,11 +2,14 @@ const getLoginPage = (req, res) => {
   res.render('login');
 };
 
-const loginUser = async (req, res) => {
-  // Add validation
+// const loginUser = async (req, res) => {
+//   // Add validation
+//   res.redirect('/dashboard');
+// };
 
-  console.log(req.body);
-  res.redirect('/login');
+const logout = (req, res) => {
+  req.logout();
+  res.redirect('/');
 };
 
-module.exports = { getLoginPage, loginUser };
+module.exports = { getLoginPage, logout };
