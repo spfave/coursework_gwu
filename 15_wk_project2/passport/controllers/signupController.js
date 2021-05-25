@@ -6,6 +6,12 @@ const getSignupPage = (req, res) => {
 };
 
 const handleNewUser = async (req, res) => {
+  // Maintain user signup inputs if errors
+  const signupForm = {
+    name: req.body.name,
+    email: req.body.email,
+  };
+
   // Validate signup inputs
   const msgErrors = [];
   const validationErrors = validationResult(req).errors;
@@ -13,7 +19,7 @@ const handleNewUser = async (req, res) => {
   if (validationErrors.length) {
     validationErrors.forEach((err) => msgErrors.push(err.msg));
     req.flash('errors', msgErrors);
-    return res.redirect('/signup');
+    return res.render('signup', { errors: req.flash('errors'), ...signupForm });
   }
 
   // Create new user object
@@ -29,8 +35,7 @@ const handleNewUser = async (req, res) => {
     res.redirect('/dashboard');
   } catch (error) {
     req.flash('errors', error);
-    res.redirect('/signup');
-    // console.log(error);
+    res.render('signup', { errors: req.flash('errors'), ...signupForm });
   }
 };
 
