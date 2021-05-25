@@ -10,7 +10,7 @@ const getLoginPage = (req, res) => {
 
 const logout = (req, res) => {
   req.logout();
-  req.flash('msg_success', 'You are logged out');
+  req.flash('msg_info', 'You are logged out');
   res.redirect('/');
 };
 
