@@ -36,9 +36,9 @@ app.use(connectFlash());
 // Middleware - global flash variables
 app.use(function (req, res, next) {
   res.locals.msg_success = req.flash('msg_success');
+  res.locals.msg_info = req.flash('msg_info');
   res.locals.msg_warn = req.flash('msg_warn');
   res.locals.msg_error = req.flash('msg_error');
-  res.locals.error = req.flash('error');
   next();
 });
 

@@ -1,11 +1,11 @@
 const userServices = require('../utils/services/userServices');
 
 const getSignupPage = (req, res) => {
-  res.render('signup');
+  res.render('signup', { errors: req.flash('errors') });
 };
 
 const createNewUser = async (req, res) => {
-  console.log(req.body); // TESTING
+  // console.log(req.body); // TESTING
 
   // Validate signup inputs
 
@@ -22,7 +22,9 @@ const createNewUser = async (req, res) => {
 
     res.redirect('/dashboard');
   } catch (error) {
-    console.log(error);
+    req.flash('errors', error);
+    res.redirect('/signup');
+    // console.log(error);
   }
 };
 
