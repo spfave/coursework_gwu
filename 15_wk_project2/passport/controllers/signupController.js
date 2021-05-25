@@ -1,13 +1,20 @@
+const { validationResult } = require('express-validator');
 const userServices = require('../utils/services/userServices');
 
 const getSignupPage = (req, res) => {
   res.render('signup', { errors: req.flash('errors') });
 };
 
-const createNewUser = async (req, res) => {
-  // console.log(req.body); // TESTING
-
+const handleNewUser = async (req, res) => {
   // Validate signup inputs
+  const msgErrors = [];
+  const validationErrors = validationResult(req).errors;
+
+  if (validationErrors.length) {
+    validationErrors.forEach((err) => msgErrors.push(err.msg));
+    req.flash('errors', msgErrors);
+    return res.redirect('/signup');
+  }
 
   // Create new user object
   try {
@@ -17,8 +24,7 @@ const createNewUser = async (req, res) => {
       password: req.body.password,
       password2: req.body.password2,
     };
-    const msgUserCreated = await userServices.createNewUser(signupInput);
-    console.log(msgUserCreated);
+    await userServices.createNewUser(signupInput);
 
     res.redirect('/dashboard');
   } catch (error) {
@@ -28,4 +34,4 @@ const createNewUser = async (req, res) => {
   }
 };
 
-module.exports = { getSignupPage, createNewUser };
+module.exports = { getSignupPage, handleNewUser };

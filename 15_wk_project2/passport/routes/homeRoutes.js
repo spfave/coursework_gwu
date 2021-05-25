@@ -4,6 +4,7 @@ const {
   isAuthenticated,
   isNotAuthenticated,
 } = require('../utils/middleware/auth');
+const userValidation = require('../utils/validators/userValidation');
 const {
   signupController,
   loginController,
@@ -19,7 +20,11 @@ router.get('/dashboard', isAuthenticated, dashboardController.getDashboardPage);
 
 // Sign up
 router.get('/signup', isNotAuthenticated, signupController.getSignupPage);
-router.post('/signup', signupController.createNewUser);
+router.post(
+  '/signup',
+  userValidation.validateNewUser,
+  signupController.handleNewUser
+);
 
 // Login
 router.get('/login', isNotAuthenticated, loginController.getLoginPage);
@@ -28,6 +33,7 @@ router.post(
   passport.authenticate('local', {
     successRedirect: '/dashboard',
     failureRedirect: '/login',
+    // failureFlash: true,
   })
 );
 
