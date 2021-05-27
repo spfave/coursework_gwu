@@ -1,5 +1,5 @@
 const { validationResult } = require('express-validator');
-const userServices = require('../utils/services/userServices');
+const userServices = require('./services/userServices');
 
 const getSignupPage = (req, res) => {
   res.render('signup', { errors: req.flash('errors') });

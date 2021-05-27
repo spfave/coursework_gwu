@@ -3,8 +3,8 @@ const passport = require('../config/passport');
 const {
   isAuthenticated,
   isNotAuthenticated,
-} = require('../utils/middleware/auth');
-const userValidation = require('../utils/validators/userValidation');
+} = require('../controllers/middleware/auth');
+const userValidation = require('../controllers/validators/userValidation');
 const {
   signupController,
   loginController,
