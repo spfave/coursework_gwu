@@ -1,5 +1,5 @@
 const getLoginPage = (req, res) => {
-  res.render('login');
+  res.render('login', { errors: req.flash('errors') });
 };
 
 // Handled with passport middleware
