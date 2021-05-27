@@ -1,6 +1,6 @@
 const passport = require('passport');
 const LocalStrategy = require('passport-local').Strategy;
-const { User } = require('../models');
+const { User } = require('../../models');
 
 // Define user authentication function, 'done' is a callback function
 const authenticateUser = async (email, password, done) => {

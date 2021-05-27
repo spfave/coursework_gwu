@@ -4,7 +4,7 @@ require('dotenv').config();
 const express = require('express');
 const session = require('express-session');
 const cookieParser = require('cookie-parser');
-const passport = require('./config/passport');
+const passport = require('./controllers/passport/passportLocal');
 const connectFlash = require('connect-flash');
 
 // MVC modules/packages
