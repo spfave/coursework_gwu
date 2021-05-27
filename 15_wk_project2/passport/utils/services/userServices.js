@@ -4,8 +4,8 @@ const createNewUser = async (userInput) =>
   new Promise(async (resolve, reject) => {
     try {
       // Check new user email is unique
-      const isEmailUnique = await uniqueUserEmail(userInput.email);
-      if (!isEmailUnique)
+      const emailExist = await userEmailExist(userInput.email);
+      if (emailExist)
         reject(`Email ${userInput.email} already registered to a user`);
 
       // Create new user
@@ -17,15 +17,15 @@ const createNewUser = async (userInput) =>
   });
 
 /**
- * Return true if email is unique (does not already exist in user table)
+ * Return true if email exists in database user table
  */
-const uniqueUserEmail = (email) =>
-  new Promise(async (resolve, request) => {
+const userEmailExist = (email) =>
+  new Promise(async (resolve, reject) => {
     try {
       // Search user table for email to check if already used
       const userData = await User.findOne({ where: { email } });
 
-      if (userData) resolve(false);
+      if (!userData) resolve(false);
       resolve(true);
     } catch (error) {
       reject(error);
