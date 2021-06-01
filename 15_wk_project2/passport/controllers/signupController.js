@@ -32,7 +32,11 @@ const handleNewUser = async (req, res) => {
     };
     await userServices.createNewUser(signupInput);
 
-    res.redirect('/dashboard');
+    req.flash(
+      'msg_success',
+      `${signupInput.name} thanks for signing up! Log in to continue`
+    );
+    res.redirect('/login');
   } catch (error) {
     req.flash('errors', error);
     res.render('signup', { errors: req.flash('errors'), ...signupForm });
