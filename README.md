@@ -17,3 +17,4 @@ Topics
 - [Week 13](./13_wk_obj_relation_mapping): Object Relational Mapping
 - [Week 14](./14_wk_mvc): Model View Controller
 - Week 15-16: Project 2
+- [Week 17](./17_wk_cs): 
