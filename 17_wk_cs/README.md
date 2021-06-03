@@ -5,4 +5,5 @@
 
 ## **Day 49 - June 3**
 Topics
-- Global and Local context
+- Global execution context
+- Function execution context
