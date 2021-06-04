@@ -8,3 +8,5 @@ Topics
 - Global execution context
 - Function execution context
 - Stack
+- Queues
+- Callback queue
