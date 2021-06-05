@@ -2,6 +2,7 @@
 > Week 14 Computer Science with JavaScript
 
 ## **Day 48 - June 1**
+Project 2 Presentations
 
 ## **Day 49 - June 3**
 Topics
@@ -10,3 +11,7 @@ Topics
 - Stack
 - Queues
 - Callback queue
+
+## **Day 50 - June 5**
+Topics
+- Higher order functions
