@@ -17,3 +17,4 @@ Topics
 - Higher order functions
 - Closures: Function containing protected variables, returns object with functions that use and can manipulate protected variables
 - Factory functions
+- Factory function vs Class constructor
