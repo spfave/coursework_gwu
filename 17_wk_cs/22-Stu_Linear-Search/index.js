@@ -8,4 +8,11 @@ const linearSearch = (array, element) => {
   return -1;
 };
 
+// const linearSearch = (array, element) =>
+//   array.findIndex((arrayItem) => arrayItem === element);
+// const linearSearch = (array, element) => array.indexOf(element);
+
 module.exports = { linearSearch };
+
+let testArray = [1, 2, 3, 4, 5, 6, 7, 8, 9];
+console.log(linearSearch(testArray, 7));
