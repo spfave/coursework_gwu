@@ -19,3 +19,4 @@ Topics
 - Factory functions
 - Factory function vs Class constructor
 - Event Delegation
+- Linear search: O(n)
