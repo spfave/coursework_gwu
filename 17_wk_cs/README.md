@@ -15,3 +15,4 @@ Topics
 ## **Day 50 - June 5**
 Topics
 - Higher order functions
+- Closures
