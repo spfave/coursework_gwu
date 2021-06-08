@@ -20,3 +20,7 @@ Topics
 - Factory function vs Class constructor
 - Event Delegation
 - Linear search: O(n)
+
+## **Day 51 - June 8**
+Topics
+- Recursion
