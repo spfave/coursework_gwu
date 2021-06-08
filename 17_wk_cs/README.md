@@ -24,3 +24,4 @@ Topics
 ## **Day 51 - June 8**
 Topics
 - Recursion
+- Binary search
