@@ -26,3 +26,4 @@ Topics
 - Recursion
 - Binary search
 - Shell scripting
+- Sorting algorithms 
