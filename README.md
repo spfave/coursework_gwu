@@ -18,3 +18,4 @@ Topics
 - [Week 14](./14_wk_mvc): Model View Controller
 - Week 15-16: Project 2
 - [Week 17](./17_wk_cs): Computer Science with JavaScript
+- [Week 18](.18_wk_nosql): NoSQL Databases with MongoDB
