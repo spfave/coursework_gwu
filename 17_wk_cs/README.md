@@ -1,5 +1,5 @@
 # **The George Washington University Web Developer Boot Camp**
-> Week 14 Computer Science with JavaScript
+> Week 14 Computer Science with JavaScript - Algorithms and Data Structures
 
 ## **Day 48 - June 1**
 Project 2 Presentations
