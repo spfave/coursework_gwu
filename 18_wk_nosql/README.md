@@ -4,3 +4,4 @@
 ## **Day 52 - June 10**
 Topics
 - MongoDB: create, insert, and find
+- MongoDB: update, delete, and drop
