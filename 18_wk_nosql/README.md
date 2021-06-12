@@ -13,3 +13,4 @@ Topics
 Topics
 - Mongoose (Mongo DB Object Document Manager (ODM)) Schemas
 - Mongoose custom methods
+- Mongoose multiple models and populating
