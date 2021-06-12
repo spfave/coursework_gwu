@@ -12,3 +12,4 @@ Topics
 ## **Day 52 - June 12**
 Topics
 - Mongoose (Mongo DB Object Document Manager (ODM)) Schemas
+- Mongoose custom methods
