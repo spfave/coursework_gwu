@@ -29,11 +29,6 @@ db.on('error', (error) => {
 // the proper mongojs functions for the site to function
 // -/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/
 
-const mongoErrDataCB = (err, data) => {
-  if (err) return res.send(err);
-  res.send(data);
-};
-
 // Post a book to the mongoose database
 app.post('/submit', ({ body }, res) => {
   // Save the request body as an object called book
