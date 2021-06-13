@@ -21,9 +21,9 @@ Week 6:\
 [x] [Title case](./title-case)
 
 Week 9:\
-[] [Character count]()\
+[x] [Character count](./character-count)\
 [] [Product of largest two]()\
-[] [Camel case](./camel-case)
+[x] [Camel case](./camel-case)
 
 Week 10:\
 [] [Linear search]()\
