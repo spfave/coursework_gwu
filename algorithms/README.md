@@ -16,9 +16,9 @@ Week 5:\
 [x] [Vowel count](./vowel-count)
 
 Week 6:\
-[x] [Is palindrome]()\
+[x] [Is palindrome](.is-palindrome)\
 [] [Factorial]()\
-[x] [Title case]()
+[x] [Title case](.title-case)
 
 Week 9:\
 [] [Character count]()\
