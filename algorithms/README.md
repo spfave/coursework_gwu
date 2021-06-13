@@ -23,7 +23,7 @@ Week 6:\
 Week 9:\
 [] [Character count]()\
 [] [Product of largest two]()\
-[] [Camel case]()
+[] [Camel case](./camel-case)
 
 Week 10:\
 [] [Linear search]()\
