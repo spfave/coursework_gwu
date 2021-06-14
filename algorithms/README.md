@@ -22,7 +22,7 @@ Week 6:\
 
 Week 9:\
 [x] [Character count](./character-count)\
-[] [Product of largest two]()\
+[x] [Product of largest two](./product-of-largest-two)\
 [x] [Camel case](./camel-case)
 
 Week 10:\
