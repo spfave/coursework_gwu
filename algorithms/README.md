@@ -26,7 +26,7 @@ Week 9:\
 [x] [Camel case](./camel-case)
 
 Week 10:\
-[] [Linear search]()\
+[x] [Linear search]()\
 [] [Is unique]()\
 [] [Is anagram]()
 
