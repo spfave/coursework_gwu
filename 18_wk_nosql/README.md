@@ -15,3 +15,7 @@ Topics
 - Mongoose custom methods
 - Mongoose multiple models and populating
 - Browser IndexedDB storage
+
+## **Day 53 - June 15**
+Topics
+- Creating object stores
