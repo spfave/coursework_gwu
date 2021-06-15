@@ -19,3 +19,4 @@ Topics
 ## **Day 53 - June 15**
 Topics
 - Creating object stores
+- Creating indexes for querying 
