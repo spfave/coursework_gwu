@@ -27,7 +27,7 @@ Week 9:\
 
 Week 10:\
 [x] [Linear search]()\
-[] [Is unique]()\
+[x] [Is unique]()\
 [] [Is anagram]()
 
 Week 11:\
