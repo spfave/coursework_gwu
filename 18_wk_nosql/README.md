@@ -21,3 +21,4 @@ Topics
 - Creating object stores
 - Creating indexes for querying 
 - IndexDB transactions
+- IndexDB update data with cursor 
