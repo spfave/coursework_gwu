@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+  <meta charset="utf-8" />
+  <title>Adding and Getting Data</title>
+</head>
+
+<body>
+  <h1>Open Your Developer Tools > Application > IndexedDB</h1>
+  <script>
+    const request = indexedDB.open("toDoDB", 1);
+
+    request.onupgradeneeded = ({ target }) => {
+      const db = target.result;
+
+      // CODE HERE
+      // keyPath -> primary key, index -> additional key on value
+      const toDoListStore = db.createObjectStore('toDoList', { keyPath: 'todoID' })
+      toDoListStore.createIndex('priorityIDx', 'priority')
+    }
+
+
+    request.onsuccess = () => {
+      const db = request.result;
+
+      // CODE HERE
+      const transaction = db.transaction(['toDoList'], 'readwrite');
+      const toDoListStore = transaction.objectStore('toDoList');
+      const priorityIndex = toDoListStore.index('priorityIDx');
+
+      // Add data to IndexDB
+      toDoListStore.add({ todoID: 1, priority: 'high' });
+      toDoListStore.add({ todoID: 2, priority: 'low' });
+      toDoListStore.add({ todoID: 3, priority: 'medium' });
+      toDoListStore.add({ todoID: 4, priority: 'medium' });
+
+      // Return an item by keyPath
+      const getRequest = toDoListStore.get(2);
+      getRequest.onsuccess = () => console.log(getRequest.result);
+
+      const getRequest2 = priorityIndex.get('high');
+      getRequest2.onsuccess = () => console.log(getRequest2.result);
+
+      // Return an item by index
+      const getRequestIdx = priorityIndex.getAll('medium');
+      getRequestIdx.onsuccess = () => console.log(getRequestIdx.result);
+    };
+
+  </script>
+</body>
+
+</html>

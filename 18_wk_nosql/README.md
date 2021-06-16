@@ -20,3 +20,4 @@ Topics
 Topics
 - Creating object stores
 - Creating indexes for querying 
+- IndexDB transactions
