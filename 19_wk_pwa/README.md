@@ -12,3 +12,4 @@ Topics
 Topics
 - Progressive Web Apps (PWAs)
 - PWA manifest file
+- PWA service worker
