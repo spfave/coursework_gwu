@@ -13,3 +13,4 @@ Topics
 - Progressive Web Apps (PWAs)
 - PWA manifest file
 - PWA service worker
+- PWA caching and fetching files (offline operation)
