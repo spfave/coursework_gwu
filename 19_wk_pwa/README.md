@@ -3,4 +3,5 @@
 
 ## **Day 54 - June 17**
 Topics
-- Lighthouse dev tools
+- Lighthouse dev tools for performance auditing
+- Minifying JavaScript and CSS
