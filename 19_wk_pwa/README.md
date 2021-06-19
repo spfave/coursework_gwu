@@ -1,7 +1,7 @@
 # **The George Washington University Web Developer Boot Camp**
 > Week 19 Web Performance and Progressive Web Apps
 
-## **Day 54 - June 17**
+## **Day 55 - June 17**
 Topics
 - Lighthouse dev tools for performance auditing
 - Minifying JavaScript and CSS
@@ -9,7 +9,7 @@ Topics
 - Image compression
 - Image lazy loading (with intersection observer web API)
 
-## **Day 55 - June 19**
+## **Day 56 - June 19**
 Topics
 - Progressive Web Apps (PWAs)
 - PWA manifest file

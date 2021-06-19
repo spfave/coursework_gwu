@@ -9,14 +9,14 @@ Topics
 - MongoDB: CRUD, express + mongojs package
 - Mongo Compass/Robo 3T
 
-## **Day 52 - June 12**
+## **Day 53 - June 12**
 Topics
 - Mongoose (Mongo DB Object Document Manager (ODM)) Schemas
 - Mongoose custom methods
 - Mongoose multiple models and populating
 - Browser IndexedDB storage
 
-## **Day 53 - June 15**
+## **Day 54 - June 15**
 Topics
 - Creating object stores
 - Creating indexes for querying 
