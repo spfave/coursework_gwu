@@ -7,6 +7,7 @@ Topics
 - Minifying JavaScript and CSS
 - File transfer compression with zip and node.js compression package
 - Image compression
+- Image lazy loading (with intersection observer web API)
 
 ## **Day 55 - June 19**
 Topics
