@@ -5,3 +5,4 @@
 Topics
 - Lighthouse dev tools for performance auditing
 - Minifying JavaScript and CSS
+- Image compression
