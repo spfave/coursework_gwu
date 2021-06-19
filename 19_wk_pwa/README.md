@@ -11,3 +11,4 @@ Topics
 ## **Day 55 - June 19**
 Topics
 - Progressive Web Apps (PWAs)
+- PWA manifest file
