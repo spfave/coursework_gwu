@@ -7,3 +7,7 @@ Topics
 - Minifying JavaScript and CSS
 - File transfer compression with zip and node.js compression package
 - Image compression
+
+## **Day 55 - June 19**
+Topics
+- Progressive Web Apps (PWAs)
