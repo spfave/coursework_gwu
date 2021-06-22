@@ -16,3 +16,8 @@ Topics
 - PWA service worker
 - PWA caching and fetching files (offline operation)
 - Intro webpack
+
+## **Day 57 - June 22**
+Topics
+- Webpack plugins
+- 
