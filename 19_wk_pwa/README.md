@@ -19,5 +19,5 @@ Topics
 
 ## **Day 57 - June 22**
 Topics
-- Webpack plugins
-- 
+- Webpack plugins: pwa-manifest, babel
+- Pure functions  
