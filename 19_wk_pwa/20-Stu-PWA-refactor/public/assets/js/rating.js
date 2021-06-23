@@ -1,4 +1,5 @@
 import { createEl } from './domMethods';
+import { loadImages } from './app';
 
 export function createRatingForm(image) {
   const labelText = {
