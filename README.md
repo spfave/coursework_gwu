@@ -19,4 +19,5 @@ Topics
 - Week 15-16: Project 2
 - [Week 17](./17_wk_cs): Computer Science with JavaScript
 - [Week 18](./18_wk_nosql): NoSQL Databases with MongoDB
-- [WEEK 19](./19_wk_pwa): Web Performance and Progressive Web Apps
+- [Week 19](./19_wk_pwa): Web Performance and Progressive Web Apps
+- [Week 20](./20_wk_react): React - Front End Framework
