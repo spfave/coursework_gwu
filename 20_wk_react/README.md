@@ -7,3 +7,4 @@ Topics
 - React rendering elements
 - React components
 - JSX expressions
+- Properties
