@@ -6,3 +6,4 @@ Topics
 - Create React App folder structure using npx
 - React rendering elements
 - React components
+- JSX expressions
