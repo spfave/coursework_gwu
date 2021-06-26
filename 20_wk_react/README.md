@@ -12,3 +12,4 @@ Topics
 ## **Day 59 - June 26**
 Topics
 - React state: [state value, method to update state ] = useState() 
+- Event handling
