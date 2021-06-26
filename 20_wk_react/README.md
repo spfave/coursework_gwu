@@ -8,3 +8,7 @@ Topics
 - React components
 - JSX expressions
 - Properties
+
+## **Day 59 - June 26**
+Topics
+- React state: [state value, method to update state ] = useState() 
