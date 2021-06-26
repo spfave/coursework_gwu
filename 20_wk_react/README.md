@@ -11,7 +11,8 @@ Topics
 
 ## **Day 59 - June 26**
 Topics
-- React state: [state value, method to update state ] = useState() 
+- React state: [state value, method to update state ] = useState() (replaces state)
 - Event handling
 - Forms
   - Managed state:  need 'value', 'name', and 'onChange' parameters on input
+- Fetching data: react stateful classes (merges state), lifecycle methods
