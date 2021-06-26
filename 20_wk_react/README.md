@@ -16,3 +16,5 @@ Topics
 - Forms
   - Managed state:  need 'value', 'name', and 'onChange' parameters on input
 - Fetching data: react stateful classes (merges state), lifecycle methods
+- useEffect hook
+  - hooks work only with functional components
