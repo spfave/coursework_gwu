@@ -13,3 +13,5 @@ Topics
 Topics
 - React state: [state value, method to update state ] = useState() 
 - Event handling
+- Forms
+  - Managed state:  need 'value', 'name', and 'onChange' parameters on input
