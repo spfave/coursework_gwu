@@ -18,3 +18,4 @@ Topics
 - Fetching data: react stateful classes (merges state), lifecycle methods
 - useEffect hook
   - hooks work only with functional components
+- CSS style in react
