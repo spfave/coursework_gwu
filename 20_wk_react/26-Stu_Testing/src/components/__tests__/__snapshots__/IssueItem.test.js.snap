@@ -1,0 +1,26 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Renders each issue individually matches snapshot 1`] = `
+<div
+  className="item"
+>
+  <i
+    className="large github middle aligned icon"
+  />
+  <div
+    className="content"
+  >
+    <a
+      className="header"
+      href="https://github.com/microsoft/vscode/issues/68"
+      rel="noreferrer"
+      target="_blank"
+    >
+      Git: Support git history in VSCode
+    </a>
+    <div
+      className="description"
+    />
+  </div>
+</div>
+`;
