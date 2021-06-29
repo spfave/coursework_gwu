@@ -24,3 +24,4 @@ Topics
 Topics
 - Conditional Rendering
 - Testing in react
+- Deploy react app to GitHub page
