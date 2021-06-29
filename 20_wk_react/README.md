@@ -19,3 +19,7 @@ Topics
 - useEffect hook
   - hooks work only with functional components
 - CSS style in react
+
+## **Day 60 - June 29**
+Topics
+- Conditional Rendering
