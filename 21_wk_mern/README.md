@@ -4,3 +4,4 @@
 ## **Day 61 - July 1**
 Topics
 - Apollo Server (GraphQL)
+- GraphQL queries
