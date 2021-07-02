@@ -5,3 +5,4 @@
 Topics
 - Apollo Server (GraphQL)
 - GraphQL queries
+- TypeDefs and Resolvers
