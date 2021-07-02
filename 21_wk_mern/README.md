@@ -7,3 +7,4 @@ Topics
 - GraphQL queries
 - TypeDefs and Resolvers
 - Query arguments
+- Mutations
