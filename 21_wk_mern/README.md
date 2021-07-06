@@ -8,3 +8,7 @@ Topics
 - TypeDefs and Resolvers
 - Query arguments
 - Mutations
+
+## **Day 62 - July 6**
+Topics
+- MERN full stack app setup
