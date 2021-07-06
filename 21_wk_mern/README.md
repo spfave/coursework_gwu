@@ -12,3 +12,4 @@ Topics
 ## **Day 62 - July 6**
 Topics
 - MERN full stack app setup
+- useQuery hook for GraphQL
