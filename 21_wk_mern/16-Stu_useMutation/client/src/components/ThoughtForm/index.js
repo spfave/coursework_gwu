@@ -4,7 +4,7 @@ import { useMutation } from '@apollo/client';
 
 import { ADD_THOUGHT } from '../../utils/mutations';
 
-const ThoughtForm = async () => {
+const ThoughtForm = () => {
   const [formState, setFormState] = useState({
     thoughtText: '',
     thoughtAuthor: '',
@@ -19,7 +19,7 @@ const ThoughtForm = async () => {
 
     try {
       // TODO: Add code to execute asynchronous mutation function returned by `useMutation()` hook and pass in `formState` object
-      const { data } = await addThought({
+      const { data } = addThought({
         variables: { ...formState },
       });
 
