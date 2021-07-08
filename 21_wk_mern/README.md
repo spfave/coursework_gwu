@@ -16,3 +16,7 @@ Topics
 - useMutation hook
 - Apollo server cache
 - React router
+
+## **Day 63 - July 8**
+Topics
+- JWT (JSON web token) stateless authentication
