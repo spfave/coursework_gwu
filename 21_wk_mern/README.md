@@ -20,3 +20,4 @@ Topics
 ## **Day 63 - July 8**
 Topics
 - JWT (JSON web token) stateless authentication
+- Decoding JWT
