@@ -21,4 +21,5 @@ Topics
 Topics
 - JWT (JSON web token) stateless authentication
 - Decoding JWT
+- Resolver context
 - Github Actions
